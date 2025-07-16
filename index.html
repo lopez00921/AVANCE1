@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar sesión / Registrarse JAC MEDELLIN</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+
+<body>
+
+  <div class="contenedor">
+    <div class="tabs">
+      <button id="loginTab" class="tab-btn activo">Iniciar sesión</button>
+      <button id="registerTab" class="tab-btn">Registro</button>
+    </div>
+
+    <form id="loginForm" class="form activo">
+      <input type="email" placeholder="Email" value="" required />
+      <input type="password" placeholder="Contraseña" required />
+      <button type="submit" class="btn"><i class="fa fa-sign-in-alt"></i> Iniciar sesión</button>
+      <p class="o">O continuar con</p>
+      <div class="sociales">
+        <button class="social">G</button>
+        <button class="social">f</button>
+        <button class="social">t</button>
+      </div>
+    </form>
+    
+    <form id="registerForm" class="form">
+      <input type="text" placeholder="Nombre completo" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Contraseña" required />
+      <input type="password" placeholder="Confirmar contraseña" required />
+      <button type="submit" class="btn"><i class="fa fa-user-plus"></i> Registrarse</button>
+      <p class="o">O regístrate con</p>
+      <div class="sociales">
+        <button class="social">G</button>
+        <button class="social">f</button>
+        <button class="social">t</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
